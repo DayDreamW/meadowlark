@@ -19,7 +19,7 @@
 	
 	app.get('/about', function(req, res) {
 //		res.type('text/plain');
-//		res.send('About Meadowlark Travel');
+//		res.send('About Meadowlark Travel');123456
 		var randomFortune = 
 				fortunes[Math.floor(Math.random() * fortunes.length)];
 		res.render('about',{fortune:randomFortune});
